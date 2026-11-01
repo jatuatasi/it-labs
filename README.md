@@ -1,6 +1,6 @@
 # IT Labs
 
-My hands-on lab notes for learning Windows virtual machines and network monitoring. Each lab is a step-by-step guide with the problems I hit and how I fixed them.
+My hands-on lab notes for learning Windows virtual machines, network monitoring, and server provisioning. Each lab is a step-by-step guide with the problems I hit and how I fixed them.
 
 ## Hyper-V (building virtual machines)
 
@@ -15,12 +15,14 @@ My hands-on lab notes for learning Windows virtual machines and network monitori
 4. [Full walkthrough: discovery and monitoring](solarwinds/04-full-walkthrough.md)
 5. [SNMP vs WMI](solarwinds/05-snmp-vs-wmi.md)
 
-## Scripting practice
+## Server provisioning (workflow and scripting practice)
 
-1. [Server provisioning practice lab (Bash and Python)](scripting/01-server-provisioning-practice-lab.md)
+1. [Server provisioning workflow](scripting/00-server-provisioning-workflow.md): how a server was rebuilt and put back into production, from my own work notes
+2. [Server provisioning practice lab (Bash and Python)](scripting/01-server-provisioning-practice-lab.md): practice tasks that copy the workflow with pretend servers
 
 ## Notes
 
 - Screenshots are not included. They were saved separately in Google Drive.
 - Passwords and personal security-question answers were left out on purpose.
-- All machines and IP addresses are made-up lab setups.
+- The lab machines and IP addresses are made-up lab setups.
+- The provisioning workflow comes from my own work notes. Tool and system names are shortened to letters on purpose, and the practice lab uses made-up servers.
